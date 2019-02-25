@@ -1,0 +1,1 @@
+Random text to be used by 6a.c and 6g.c
