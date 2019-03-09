@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//copies the contents from one file to another
 int main(int argc, char* argv[]) {
     if (argc < 3) {
         printf("Usage: 2a <source> <destination>");
