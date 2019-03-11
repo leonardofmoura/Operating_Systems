@@ -22,7 +22,6 @@ int main(int argc, char* argv[]) {
     while(detect != 0){
         write(STDOUT_FILENO,&c,sizeof(char));
         detect = read(source,&c,sizeof(char)); //read returns 0 on eof
-        // printf("%c\n",c);
     } 
 
     close(source);
