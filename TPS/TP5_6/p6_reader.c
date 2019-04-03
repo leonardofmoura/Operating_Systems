@@ -14,7 +14,9 @@ int main(void) {
 
     mkfifo("/tmp/myfifo",0660);
     fd = open("/tmp/myfifo",O_RDONLY);
-    while(readline(fd,str)) printf("%s",str);
+    while(readline(fd,str)) {
+        printf("%s",str);
+    } 
     close(fd);
     return 0;
 }
