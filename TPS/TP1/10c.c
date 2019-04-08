@@ -1,13 +1,36 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define MAX_STR_LEN 256
 #define MAX_TOKENS 99
 
+void token_command(char command[],char* command_array[]) {
+    const char delim[] = " ";
+    char* token;
+    int i = 0;
+
+    token = strtok(command,delim);
+    command_array[i] = token;
+    i++;
+
+    while (token != NULL) {
+        token = strtok(NULL,delim);
+        command_array[i] = token;
+        i++;
+    }
+
+    //test if the array is being filled
+    int k = 0;
+    do {
+        printf("%s\n",command_array[k]);
+        k++;
+    } while (command_array[k] != NULL);
+}
+
 int main() {
     char buf[MAX_STR_LEN];
     const char delim1[] = ";|";
-    const char delim2[] = " ";
     char* token;
     char* command_array[MAX_TOKENS];
     char* token_array[MAX_TOKENS][MAX_TOKENS];
@@ -27,33 +50,12 @@ int main() {
         i++;
     }
 
-    printf("PLIT 1 \n");
-    //splits each command in tokens 
-    i = 0;
-    int j = 0;
-    
-    while (command_array[i] != NULL) {
-        token = strtok(command_array[i],delim2);
-        token_array[i][j] = token;
-        j++;
-        printf("TOKEN :%s",token);
-
-        while (token != NULL) {
-            token = strtok(NULL,delim2);
-            token_array[i][j] = token;
-            j++;
-        } 
-
+    //splits each command in tokens
+    i = 0; 
+    while(command_array[i] != NULL){
+        token_command(command_array[i],token_array[i]);
         i++;
-        printf("ciclo...");
     }
-
-    //print the array
-    int k = 0;
-    do {
-        printf("Array [%d]: %s\n",k,token_array[k]);
-        k++;
-    } while (token_array[k] != NULL);
 
     return 0;
 }
