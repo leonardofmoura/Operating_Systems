@@ -2,6 +2,8 @@
 
 //this file includes all the exercises from a) to f)
 
+//writes the contents of the file "initfile.txt" to "outfile.txt"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

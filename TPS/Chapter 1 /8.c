@@ -3,7 +3,7 @@
 #include <time.h>
 #include <sys/times.h>
 
-//This exercise is not complete
+//shows the cpu times of the random generation 
 
 int main(int argc, char* argv[]) {
     if (argc < 3) {

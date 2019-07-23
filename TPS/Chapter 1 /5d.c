@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Prints the value of the USER_NAME variable
+
 //this assumes the cration of a new environment variable called USER_NAME
 //ex: export USER_NAME="Leonardo"
 

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+//splits a string in tokens and stores them in an array
+
 #define MAX_STR_LEN 256
 #define MAX_TOKENS 99
 

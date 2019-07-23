@@ -2,6 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+//decomposes a string in tokens and then decomposes those tokens in sub-tokens
+
 #define MAX_STR_LEN 256
 #define MAX_TOKENS 99
 

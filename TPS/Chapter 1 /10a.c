@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// decomposes the inputed string in tokents
+
 #define MAX_STR_LEN 256
 
 int main() {

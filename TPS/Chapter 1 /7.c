@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Using atexit handlers
+
 void handler1() {
     printf("Executing handler 1\n");
     return;

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Passing arguments to a program 
+
 int main(int argc, char* argv[]) {
     printf("Hello ");
     for (int i = 1; i < argc; i++) {

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Accepts the name of a person and a number n, then says hello to that person n times
+
 int main(int argc, char* argv[]) {
     
     if (atoi(argv[argc-1]) == 0) { //check if the last argument is a valid number

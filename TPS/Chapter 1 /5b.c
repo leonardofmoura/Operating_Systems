@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+//prints the name of the user 
+
 int main(int argc, char* argv[], char* envp[]) {
     char user[] = "USER"; 
 

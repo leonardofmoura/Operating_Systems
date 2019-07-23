@@ -1,5 +1,7 @@
 //this file also includes exercise g)
 
+//writes the contents of argv[1] to argv[2]
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,12 +23,12 @@ int main(int argc, char* argv[])
 
     if ( ( src = fopen(argv[1],"r") ) == NULL)
     {
-        perror("initfile.txt");
+        perror(argv[1]);
         exit(1);
     }
     if ( ( dst = fopen(argv[2],"w") ) == NULL)
     {
-        perror("outfile.txt");
+        perror(argv[2]);
         exit(2);
     }
 
