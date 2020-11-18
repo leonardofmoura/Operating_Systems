@@ -1,0 +1,73 @@
+0:0:0 - 19045 - COMMAND forensic -r /usr -o test.txt -v 
+0:0:0 - 19045 - SIGNAL : User defined signal 1
+0:0:0 - 19045 - SIGNAL : User defined signal 1
+0:0:0 - 19048 - ANALIZED /usr/lib32/libpthread.a
+0:0:0 - 19045 - SIGNAL : User defined signal 2
+0:0:0 - 19048 - ANALIZED /usr/lib32/libFLAC++.so.6.3.0
+0:0:0 - 19045 - SIGNAL : User defined signal 2
+0:0:0 - 19048 - ANALIZED /usr/lib32/libgdk_pixbuf_xlib-2.0.so.0.3800.1
+0:0:0 - 19045 - SIGNAL : User defined signal 2
+0:0:0 - 19048 - ANALIZED /usr/lib32/libcrypt.a
+0:0:0 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libelf.a
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libexpat.so.1.6.8
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libpanelw.so.6.1
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/liblber-2.4.so.2.10.10
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libncursesw.so.6.1
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libcairo-gobject.so.2.11600.0
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19045 - SIGNAL : User defined signal 1
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_pcm_pulse.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_pcm_oss.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_ctl_arcam_av.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_pcm_jack.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_pcm_upmix.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_rate_samplerate.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_pcm_usb_stream.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_rate_speexrate.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_pcm_vdownmix.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_conf_pulse.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_ctl_pulse.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_pcm_speex.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19060 - ANALIZED /usr/lib32/alsa-lib/libasound_module_ctl_oss.so
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libk5crypto.so.3.1
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libxatracker.so.2.4.0
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libgnutls.so.30.23.2
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libgmp.so.10.3.2
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libxcb-dri3.so.0.0.0
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libsqlite3.so.0.8.6
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libpcreposix.so.0.0.6
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libcom_err.so.2.1
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libgssrpc.so.4.2
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libXdmcp.so.6.0.0
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19048 - ANALIZED /usr/lib32/libmount.so.1.1.0
+0:0:1 - 19045 - SIGNAL : User defined signal 2
+0:0:1 - 19045 - SIGNAL : User
