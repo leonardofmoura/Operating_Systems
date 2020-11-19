@@ -1,4 +1,4 @@
-# FEUP-SOPE
+# Operating Systems
 Repository created to host projects elaborated in the Operating Systems course.
 
 The course focuses on Operating Systems concepts using UNIX based systems and the C language to interact with the kernel.
